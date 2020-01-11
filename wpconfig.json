@@ -1,7 +1,7 @@
 {
   "mode": "development",
   "entry": {
-    "app": ["./src/client/main.tsx", "webpack-hot-middleware/client"],
+    "index": ["./src/client/index.tsx", "webpack-hot-middleware/client"],
     "vendor": ["react", "react-dom"]
   },
   "output": {
