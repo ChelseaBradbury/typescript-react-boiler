@@ -5,7 +5,7 @@
     "vendor": ["react", "react-dom"]
   },
   "output": {
-    "path": "dist",
+    "path": "../client",
     "filename": "js/[name].bundle.js"
   },
   "devtool": "source-map",
