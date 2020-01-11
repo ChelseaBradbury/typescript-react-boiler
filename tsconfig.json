@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./build/",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "target": "es5",
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/app/components/*"],
+      "@src/*": ["src/*"]
+    }
+  },
+  "include": ["./src/server.ts", "./src/**/*"]
+}
