@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./build/client/",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "target": "es5",
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"]
+    }
+  },
+  "include": ["./src/client/**/*", "./src/shared/**/*"]
+}
