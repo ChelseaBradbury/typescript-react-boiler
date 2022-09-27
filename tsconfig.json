@@ -7,7 +7,7 @@
     "outDir": "./build/server/",
     "preserveConstEnums": true,
     "removeComments": true,
-    "target": "es5",
+    "target": "es6",
     "baseUrl": "./",
     "paths": {
       "@src/*": ["src/*"]

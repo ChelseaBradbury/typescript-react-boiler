@@ -44,7 +44,6 @@ async function main(): Promise<void> {
 
     app.use(
       require("webpack-dev-middleware")(compiler, {
-        noInfo: true,
         publicPath: webpackConfig.output.publicPath,
         stats: { colors: true },
         writeToDisk: true
